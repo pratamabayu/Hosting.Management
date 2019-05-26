@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Pratama Bayu Widagdo</Authors>
+    <Description>Hosting management for ASP Net. Core</Description>
+    <PackageId>pratamabayu</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
+    <PackageReference Include="Polly" Version="7.1.0" />
+  </ItemGroup>
+</Project>
