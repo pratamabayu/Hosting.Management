@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>1.0</PackageVersion>
     <Authors>Pratama Bayu Widagdo</Authors>
-    <Description>Hosting management for ASP Net. Core</Description>
+    <Description>Hosting management for Net. Core</Description>
     <PackageId>pratamabayu</PackageId>
   </PropertyGroup>
 
