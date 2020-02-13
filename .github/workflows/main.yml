@@ -22,4 +22,5 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           PROJECT_FILE_PATH: Hosting.Management/Hosting.Management.csproj # Relative to repository root
+          VERSION_REGEX: <PackageVersion>(.*)<\/PackageVersion> # Regex pattern to extract version info in a capturing group
           NUGET_KEY: ${{secrets.NUGET_API_KEY}} # nuget.org API key

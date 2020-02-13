@@ -8,6 +8,9 @@
     <PackageId>pratamabayu</PackageId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Polly" Version="7.1.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0" />
