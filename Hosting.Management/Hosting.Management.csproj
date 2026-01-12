@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>1.1</PackageVersion>
+    <TargetFramework>net10.0</TargetFramework>
+    <PackageVersion>1.2</PackageVersion>
     <Authors>Pratama Bayu Widagdo</Authors>
-    <Description>Hosting management for Net. Core</Description>
+    <Description>Hosting management for .Net</Description>
     <PackageId>Hosting.Management</PackageId>
   </PropertyGroup>
 
@@ -12,7 +12,7 @@
     <DebugType></DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Polly" Version="7.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0" />
+    <PackageReference Include="Polly" Version="8.6.5" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
   </ItemGroup>
 </Project>
